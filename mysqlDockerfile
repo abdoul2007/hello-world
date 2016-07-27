@@ -1,0 +1,7 @@
+FROM mysql:latest
+MAINTAINER vdm
+
+EXPOSE 3306
+
+
+ENTRYPOINT ["/usr/bin/mysqld_safe"]

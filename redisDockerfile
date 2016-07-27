@@ -1,0 +1,6 @@
+FROM 		redis:latest
+MAINTAINER vdm
+
+EXPOSE      6379
+
+ENTRYPOINT  ["redis-server", "/etc/redis.conf"]
